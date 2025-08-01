@@ -1,6 +1,7 @@
 # 🌌 CthulhuRx
 
 > **“The most merciful thing in the world... is the inability of the human mind to correlate all its contents.”**
+
 > — *H.P. Lovecraft*
 
 **CthulhuRx** 是一个基于 **RFSoC** 的射电天文信号采集后端系统。该项目融合了开源硬件设计、可复用 FPGA 模块、预构建比特流和上位机数据接收工具，旨在提供一个完整、可扩展的射电天文后端方案。
