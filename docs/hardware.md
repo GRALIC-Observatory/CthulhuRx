@@ -2,7 +2,7 @@
 
 ## 正式版
 1. **调试与存储：**  
-   - 需要FTx232，Type-C，接JTAG、UART JTAG
+   - 需要FTx232，Type-C，接JTAG、UART
    - ARM使用 TF 卡和 Flash  
 
 2. **射频与时钟：**  
@@ -14,7 +14,6 @@
 
 3. **高速接口：**  
    - 双路 100 GbE  
-   - 考虑 PCIe
 
 4. **低速IO：**  
    - Alarm IO  
