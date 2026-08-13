@@ -3,16 +3,15 @@
 > **“The most merciful thing in the world... is the inability of the human mind to correlate all its contents.”**
 > — *H.P. Lovecraft*
 
-**CthulhuRx** 是一个基于 **RFSoC** 的射电天文信号采集后端系统。该项目融合了开源硬件设计、可复用 FPGA 模块、预构建比特流和上位机数据接收工具，旨在提供一个完整、可扩展的射电天文后端方案。
+**CthulhuRx** 是一个基于 **RFSoC** 的射电天文信号采集后端系统。该项目提供硬件原理图、预构建比特流和上位机数据接收工具，旨在提供一个完整、可扩展的射电天文后端方案。
 
 
 ---
 
 ## 项目结构
 
-- `hardware/`：RFSoC 硬件设计，包括原理图、PCB 和物料清单
+- `hardware/`：RFSoC 硬件设计，包括原理图
 - `bitstreams/`：预编译比特流（.bit / .xsa）
-- `blocks/`：可复用 Vivado 模块（如 FFT、通道化、封包器等）
 - `host/`：上位机程序，包括 UDP 接收与控制脚本（Python/C++）
 - `examples/`：完整接收系统示例工程
 - `docs/`：开发文档、安装说明等
